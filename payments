@@ -1,149 +1,205 @@
-16:56:51:7691 - extension: chrome-extension://polkfpcimpfhcflopocaobbbnphilcbi/
-16:56:51:7701 - parent-window: 00000000
-16:56:51:7701 - Listening for messages...
-16:56:51:7711 - Checking for C:\Users\tinkd\AppData\Roaming\Inist\FireWyrmNativeMessageHost.exe...
-16:56:51:7771 - Started FireWyrmNativeMessageHost.exe as the proxied NativeMessagingHost.
-16:56:51:7941 - Extension promised a message of length: 99
-16:56:51:7951 - {"cmd":"create","mimetype":"application/x-bicryptplugin2","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8261 - App promised a message of length: 55
-16:56:51:8261 - {"plugin":"inist.ru/BicryptPlugin2","status":"success"}
-16:56:51:8311 - Extension promised a message of length: 144
-16:56:51:8311 - {"cmdId":1,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"New\",\"application/x-bicryptplugin2\",{}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8311 - App promised a message of length: 82
-16:56:51:8311 - {"c":1,"cmdId":1,"colonyId":0,"msg":"[\"New\",\"browser\",{}]","n":1,"type":"cmd"}
-16:56:51:8321 - App promised a message of length: 74
-16:56:51:8321 - {"c":1,"cmdId":1,"colonyId":0,"msg":"[\"success\",1]","n":1,"type":"resp"}
-16:56:51:8341 - Extension promised a message of length: 115
-16:56:51:8341 - {"cmdId":1,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",1]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8341 - App promised a message of length: 72
-16:56:51:8341 - {"c":1,"cmdId":2,"colonyId":0,"msg":"[\"Enum\",1,0]","n":1,"type":"cmd"}
-16:56:51:8341 - Extension promised a message of length: 113
-16:56:51:8341 - {"cmdId":2,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",1,0]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8351 - App promised a message of length: 1,327
-16:56:51:8351 - {"c":1,"cmdId":2,"colonyId":0,"msg":"[\"success\",[\"AddKeyParam\",\"BankName\",\"CheckKey\",\"CheckVersion\",\"ClearKeyParams\",\"ClientCode\",\"ClientName\",\"Command\",\"CompressFiles\",\"CreatePacket\",\"CryptString\",\"DecompressFile\",\"DecryptPackage\",\"DecryptPackageBase64\",\"DecryptPackageBuf\",\"DocType\",\"FileSystemKeyStore\",\"FileSystemKeyStoreOnly\",\"ForceRegister\",\"GenSignKey\",\"GeneratedKeyInfo\",\"GetFileContentEx\",\"GetFileInfoByPath\",\"GetFileLines\",\"GetFileUTF8\",\"GetPluginProperties\",\"Gost2012\",\"InitToken\",\"KeyAkt\",\"KeyBody\",\"KeyInfo\",\"KeyParam\",\"Language\",\"MaxTrash\",\"MaxTrashPause\",\"MinTrash\",\"MinTrashPause\",\"NGOTPMode\",\"NGOTPTimeout\",\"Packet\",\"PacketCount\",\"PrintKeyAkt\",\"ProfileName\",\"RememberPacket\",\"RemoveKeyParam\",\"SaveFileUTF8\",\"SaveToFile\",\"SaveToFileFirst\",\"SaveToFileLast\",\"SaveToFileNext\",\"SaveToFileUTF16\",\"SelectMultiFiles\",\"Session\",\"SetCommand\",\"SetPin\",\"SetPluginProperties\",\"SetSession\",\"UseNGOTP\",\"UserName\",\"VirtualKeyboardOnly\",\"createPacketFromFile2\",\"getAttribute\",\"getFileInfo\",\"getPacket\",\"selectCatalog\",\"selectCatalogEx\",\"selectFiles\",\"selectFilesEx\",\"setAttribute\",\"set_SOPass\",\"set_UserDefaultPin\",\"toString\",\"valid\",\"value\",\"version\"]]","n":1,"type":"resp"}
-16:56:51:8351 - Extension promised a message of length: 203
-16:56:51:8361 - {"cmdId":2,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"eval\",\"getDocument\",\"getWindow\",\"invokeWithDelay\",\"readArray\",\"readObject\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8361 - App promised a message of length: 91
-16:56:51:8361 - {"c":1,"cmdId":3,"colonyId":0,"msg":"[\"Invoke\",1,0,\"getWindow\",[]]","n":1,"type":"cmd"}
-16:56:51:8361 - App promised a message of length: 93
-16:56:51:8361 - {"c":1,"cmdId":4,"colonyId":0,"msg":"[\"Invoke\",1,0,\"getDocument\",[]]","n":1,"type":"cmd"}
-16:56:51:8473 - Extension promised a message of length: 125
-16:56:51:8473 - {"cmdId":3,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"version\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8473 - App promised a message of length: 85
-16:56:51:8473 - {"c":1,"cmdId":3,"colonyId":0,"msg":"[\"success\",\"1.0.0.32\"]","n":1,"type":"resp"}
-16:56:51:8623 - Extension promised a message of length: 148
-16:56:51:8623 - {"cmdId":3,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[1,1]}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8623 - Extension promised a message of length: 148
-16:56:51:8623 - {"cmdId":4,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[1,2]}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8623 - App promised a message of length: 72
-16:56:51:8623 - {"c":1,"cmdId":5,"colonyId":0,"msg":"[\"Enum\",1,1]","n":1,"type":"cmd"}
-16:56:51:8623 - App promised a message of length: 72
-16:56:51:8623 - {"c":1,"cmdId":6,"colonyId":0,"msg":"[\"Enum\",1,2]","n":1,"type":"cmd"}
-16:56:51:8653 - Extension promised a message of length: 4,460
-16:56:51:8653 - {"cmdId":5,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"0\",\"1\",\"2\",\"window\",\"self\",\"document\",\"name\",\"location\",\"customElements\",\"history\",\"navigation\",\"locationbar\",\"menubar\",\"personalbar\",\"scrollbars\",\"statusbar\",\"toolbar\",\"status\",\"closed\",\"frames\",\"length\",\"top\",\"opener\",\"parent\",\"frameElement\",\"navigator\",\"origin\",\"external\",\"screen\",\"innerWidth\",\"innerHeight\",\"scrollX\",\"pageXOffset\",\"scrollY\",\"pageYOffset\",\"visualViewport\",\"screenX\",\"screenY\",\"outerWidth\",\"outerHeight\",\"devicePixelRatio\",\"clientInformation\",\"screenLeft\",\"screenTop\",\"styleMedia\",\"onsearch\",\"isSecureContext\",\"trustedTypes\",\"performance\",\"onappinstalled\",\"onbeforeinstallprompt\",\"crypto\",\"indexedDB\",\"sessionStorage\",\"localStorage\",\"onbeforexrselect\",\"onabort\",\"onbeforeinput\",\"onblur\",\"oncancel\",\"oncanplay\",\"oncanplaythrough\",\"onchange\",\"onclick\",\"onclose\",\"oncontextlost\",\"oncontextmenu\",\"oncontextrestored\",\"oncuechange\",\"ondblclick\",\"ondrag\",\"ondragend\",\"ondragenter\",\"ondragleave\",\"ondragover\",\"ondragstart\",\"ondrop\",\"ondurationchange\",\"onemptied\",\"onended\",\"onerror\",\"onfocus\",\"onformdata\",\"oninput\",\"oninvalid\",\"onkeydown\",\"onkeypress\",\"onkeyup\",\"onload\",\"onloadeddata\",\"onloadedmetadata\",\"onloadstart\",\"onmousedown\",\"onmouseenter\",\"onmouseleave\",\"onmousemove\",\"onmouseout\",\"onmouseover\",\"onmouseup\",\"onmousewheel\",\"onpause\",\"onplay\",\"onplaying\",\"onprogress\",\"onratechange\",\"onreset\",\"onresize\",\"onscroll\",\"onsecuritypolicyviolation\",\"onseeked\",\"onseeking\",\"onselect\",\"onslotchange\",\"onstalled\",\"onsubmit\",\"onsuspend\",\"ontimeupdate\",\"ontoggle\",\"onvolumechange\",\"onwaiting\",\"onwebkitanimationend\",\"onwebkitanimationiteration\",\"onwebkitanimationstart\",\"onwebkittransitionend\",\"onwheel\",\"onauxclick\",\"ongotpointercapture\",\"onlostpointercapture\",\"onpointerdown\",\"onpointermove\",\"onpointerrawupdate\",\"onpointerup\",\"onpointercancel\",\"onpointerover\",\"onpointerout\",\"onpointerenter\",\"onpointerleave\",\"onselectstart\",\"onselectionchange\",\"onanimationend\",\"onanimationiteration\",\"onanimationstart\",\"ontransitionrun\",\"ontransitionstart\",\"ontransitionend\",\"ontransitioncancel\",\"onafterprint\",\"onbeforeprint\",\"onbeforeunload\",\"onhashchange\",\"onlanguagechange\",\"onmessage\",\"onmessageerror\",\"onoffline\",\"ononline\",\"onpagehide\",\"onpageshow\",\"onpopstate\",\"onrejectionhandled\",\"onstorage\",\"onunhandledrejection\",\"onunload\",\"crossOriginIsolated\",\"scheduler\",\"alert\",\"atob\",\"blur\",\"btoa\",\"cancelAnimationFrame\",\"cancelIdleCallback\",\"captureEvents\",\"clearInterval\",\"clearTimeout\",\"close\",\"confirm\",\"createImageBitmap\",\"fetch\",\"find\",\"focus\",\"getComputedStyle\",\"getSelection\",\"matchMedia\",\"moveBy\",\"moveTo\",\"open\",\"postMessage\",\"print\",\"prompt\",\"queueMicrotask\",\"releaseEvents\",\"reportError\",\"requestAnimationFrame\",\"requestIdleCallback\",\"resizeBy\",\"resizeTo\",\"scroll\",\"scrollBy\",\"scrollTo\",\"setInterval\",\"setTimeout\",\"stop\",\"structuredClone\",\"webkitCancelAnimationFrame\",\"webkitRequestAnimationFrame\",\"chrome\",\"credentialless\",\"caches\",\"cookieStore\",\"ondevicemotion\",\"ondeviceorientation\",\"ondeviceorientationabsolute\",\"launchQueue\",\"onbeforematch\",\"getScreenDetails\",\"queryLocalFonts\",\"showDirectoryPicker\",\"showOpenFilePicker\",\"showSaveFilePicker\",\"originAgentCluster\",\"speechSynthesis\",\"oncontentvisibilityautostatechange\",\"openDatabase\",\"webkitRequestFileSystem\",\"webkitResolveLocalFileSystemURL\",\"gtmTestId\",\"gtmProdId\",\"gtmId\",\"dataLayer\",\"dT_\",\"dtrum\",\"dynatrace\",\"gtag\",\"getQueryParam\",\"utm\",\"init\",\"ROSBANK_API_BASE_PATH\",\"ROSBANK_ENVIRONMENT\",\"ROSBANK_SENTRY_DSN\",\"ROSBANK_SENTRY_TAGS\",\"ROSBANK_SENTRY_RELEASE\",\"ROSBANK_SENTRY_ENVIRONMENT\",\"ROSBANK_API_ETR_DOMAIN\",\"gtmIframe\",\"iframe\",\"link\",\"gib\",\"webpackChunkrosbank\",\"Zone\",\"debug\",\"untilDestroyedAliveList\",\"untilDestroyedStatusMap\",\"IMask\",\"printJS\",\"regeneratorRuntime\",\"saveAs\",\"environment\",\"getAngularTestability\",\"getAllAngularTestabilities\",\"getAllAngularRootElements\",\"frameworkStabilizers\",\"sessionUUID\",\"FireBreathPromise\",\"FireWyrmJS\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:51:8653 - Extension promised a message of length: 154
-16:56:51:8653 - {"cmdId":6,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"location\",\"12420lvb\",\"84781lvb\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:52:0493 - Extension promised a message of length: 137
-16:56:52:0493 - {"cmdId":4,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"SetPluginProperties\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:52:0503 - App promised a message of length: 107
-16:56:52:0503 - {"c":1,"cmdId":4,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,1]}]","n":1,"type":"resp"}
-16:56:52:0523 - Extension promised a message of length: 113
-16:56:52:0523 - {"cmdId":5,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,1]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:52:0523 - App promised a message of length: 75
-16:56:52:0523 - {"c":1,"cmdId":5,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
-16:56:52:1573 - Extension promised a message of length: 157
-16:56:52:1583 - {"cmdId":6,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,1,\"\",[{\"$type\":\"ref\",\"data\":[0,1]}]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:52:1583 - App promised a message of length: 72
-16:56:52:1593 - {"c":1,"cmdId":7,"colonyId":0,"msg":"[\"Enum\",0,1]","n":1,"type":"cmd"}
-16:56:52:1593 - App promised a message of length: 132
-16:56:52:1593 - {"c":1,"cmdId":8,"colonyId":0,"msg":"[\"Invoke\",1,0,\"readObject\",[{\"$type\":\"local-ref\",\"data\":[0,1]}]]","n":1,"type":"cmd"}
-16:56:52:1623 - Extension promised a message of length: 244
-16:56:52:1633 - {"cmdId":7,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"DocType\",\"BankName\",\"ProfileName\",\"Language\",\"RegistryKeyStore\",\"RememberPacket\",\"Packet\",\"VirtualKeyboardOnly\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:52:2493 - Extension promised a message of length: 292
-16:56:52:2493 - {"cmdId":8,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"DocType\":\"\",\"BankName\":\"\",\"ProfileName\":\"Profile_Name\",\"Language\":0,\"RegistryKeyStore\":false,\"RememberPacket\":true,\"Packet\":8,\"VirtualKeyboardOnly\":false}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:52:2503 - App promised a message of length: 77
-16:56:52:2503 - {"c":1,"cmdId":6,"colonyId":0,"msg":"[\"success\",true]","n":1,"type":"resp"}
-16:56:57:0576 - Extension promised a message of length: 115
-16:56:57:0576 - {"cmdId":7,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,1]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-16:56:57:0576 - App promised a message of length: 77
-16:56:57:0576 - {"c":1,"cmdId":7,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
-17:03:14:7925 - Extension promised a message of length: 137
-17:03:14:7935 - {"cmdId":8,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"SetPluginProperties\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:14:7945 - App promised a message of length: 107
-17:03:14:7945 - {"c":1,"cmdId":8,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,2]}]","n":1,"type":"resp"}
-17:03:14:7985 - Extension promised a message of length: 113
-17:03:14:7995 - {"cmdId":9,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,2]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:14:7995 - App promised a message of length: 75
-17:03:14:7995 - {"c":1,"cmdId":9,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
-17:03:14:8870 - Extension promised a message of length: 158
-17:03:14:8880 - {"cmdId":10,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,2,\"\",[{\"$type\":\"ref\",\"data\":[0,2]}]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:14:8880 - App promised a message of length: 72
-17:03:14:8880 - {"c":1,"cmdId":9,"colonyId":0,"msg":"[\"Enum\",0,2]","n":1,"type":"cmd"}
-17:03:14:8880 - App promised a message of length: 133
-17:03:14:8880 - {"c":1,"cmdId":10,"colonyId":0,"msg":"[\"Invoke\",1,0,\"readObject\",[{\"$type\":\"local-ref\",\"data\":[0,2]}]]","n":1,"type":"cmd"}
-17:03:14:8930 - Extension promised a message of length: 158
-17:03:14:8930 - {"cmdId":9,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"Session\",\"Command\",\"RememberPacket\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:14:9736 - Extension promised a message of length: 203
-17:03:14:9736 - {"cmdId":10,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"Session\":\"00000000000000000000002148837094\",\"Command\":1,\"RememberPacket\":true}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:14:9746 - App promised a message of length: 78
-17:03:14:9746 - {"c":1,"cmdId":10,"colonyId":0,"msg":"[\"success\",true]","n":1,"type":"resp"}
-17:03:14:9915 - Extension promised a message of length: 131
-17:03:14:9915 - {"cmdId":11,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"CreatePacket\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:14:9915 - App promised a message of length: 108
-17:03:14:9915 - {"c":1,"cmdId":11,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,3]}]","n":1,"type":"resp"}
-17:03:14:9935 - Extension promised a message of length: 114
-17:03:14:9935 - {"cmdId":12,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,3]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:14:9945 - App promised a message of length: 76
-17:03:14:9945 - {"c":1,"cmdId":12,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
-17:03:15:0505 - Extension promised a message of length: 1,186
-17:03:15:0505 - {"cmdId":13,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,3,\"\",[\"-----\\r\\nТИП КОМАНДЫ: 001002\\r\\nВЕРСИЯ: 07\\r\\nКЛИЕНТ: 8736F39498\\r\\nПЛАТЕЖНЫЙ ДОКУМЕНТ\\r\\nНОМЕР: 1235\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nУИН: \\r\\nСУММА: 00000000000000000000000000012.00\\r\\nПЛАТЕЛЬЩИК:\\r\\nОбщество с ограниченной ответственностью \\\"НЛМК-КАЛУГА\\\"|4003033040|40702810887360000207|044525256|ПАО РОСБАНК г. Москва|30101810000000000256|400301001|\\r\\nПОЛУЧАТЕЛЬ:\\r\\nСПАО \\\"ИНГОССТРАХ\\\"|7705042179|40701810700020016042|044525225|ПАО Сбербанк г. Москва|30101810400000000225|770501001|\\r\\nСРОК ПЛАТЕЖА: \\r\\nОЧЕРЕДНОСТЬ ПЛАТЕЖА: 5\\r\\nТИП ОТПРАВЛЕНИЯ: 0000000000000070\\r\\nНАЛОГОВЫЕ РЕКВИЗИТЫ:\\r\\n|||||||1|\\r\\nКОД НАЗНАЧЕНИЯ ПЛАТЕЖА: 2\\r\\nНАЗНАЧЕНИЕ ПЛАТЕЖА: \\r\\nВ т.ч. НДС (20%) 2,00 руб.\",\"Подпись данных\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:19:8084 - Extension promised a message of length: 116
-17:03:19:8084 - {"cmdId":14,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,2]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:22:3026 - App promised a message of length: 1,649
-17:03:22:3026 - {"c":1,"cmdId":13,"colonyId":0,"msg":"[\"success\",\"0000107901H1000008460000084600000097\\r\\n8736S75307SYA       00738089\\r\\n                    00000000\\r\\nBEGIN\\r\\nСЕССИЯ: 00000000000000000000002148837094\\r\\nНОМЕР ПАКЕТА: 000008\\r\\nЧИСЛО КОМАНД: 000001\\r\\nПОЛЬЗОВАТЕЛЬ: 8736S75307SYA       \\r\\nПРИМ: ID#I192.168.0.139#M38:00:25:2C:A0:24#F#S4277-6AE8#T4277-6AE8#V1.0.0.32\\r\\n-----\\r\\nТИП КОМАНДЫ: 001002\\r\\nВЕРСИЯ: 07\\r\\nКЛИЕНТ: 8736F39498\\r\\nПЛАТЕЖНЫЙ ДОКУМЕНТ\\r\\nНОМЕР: 1235\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nУИН: \\r\\nСУММА: 00000000000000000000000000012.00\\r\\nПЛАТЕЛЬЩИК:\\r\\nОбщество с ограниченной ответственностью \\\"НЛМК-КАЛУГА\\\"|4003033040|40702810887360000207|044525256|ПАО РОСБАНК г. Москва|30101810000000000256|400301001|\\r\\nПОЛУЧАТЕЛЬ:\\r\\nСПАО \\\"ИНГОССТРАХ\\\"|7705042179|40701810700020016042|044525225|ПАО Сбербанк г. Москва|30101810400000000225|770501001|\\r\\nСРОК ПЛАТЕЖА: \\r\\nОЧЕРЕДНОСТЬ ПЛАТЕЖА: 5\\r\\nТИП ОТПРАВЛЕНИЯ: 0000000000000070\\r\\nНАЛОГОВЫЕ РЕКВИЗИТЫ:\\r\\n|||||||1|\\r\\nКОД НАЗНАЧЕНИЯ ПЛАТЕЖА: 2\\r\\nНАЗНАЧЕНИЕ ПЛАТЕЖА: \\r\\nВ т.ч. НДС (20%) 2,00 руб.\\r\\nEND\\r\\nBEGIN SIGNATURE\\r\\nwmxoNqhY9r/IWIqM+Zx82NCtzhG/D+Pvdzs3+qStJyPhLfzcMT9yHcu+vJOIOjnL\\r\\nbaKVpiy+CSOBNmF9X1StyQ==\\r\\n=8MLi\\r\\nEND SIGNATURE\"]","n":1,"type":"resp"}
-17:03:22:3036 - App promised a message of length: 78
-17:03:22:3036 - {"c":1,"cmdId":14,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
-17:03:27:3607 - Extension promised a message of length: 116
-17:03:27:3607 - {"cmdId":15,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,3]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:03:27:3607 - App promised a message of length: 78
-17:03:27:3607 - {"c":1,"cmdId":15,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
-17:04:08:6278 - Extension promised a message of length: 138
-17:04:08:6278 - {"cmdId":16,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"SetPluginProperties\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:08:6278 - App promised a message of length: 108
-17:04:08:6278 - {"c":1,"cmdId":16,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,4]}]","n":1,"type":"resp"}
-17:04:08:6318 - Extension promised a message of length: 114
-17:04:08:6328 - {"cmdId":17,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,4]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:08:6328 - App promised a message of length: 76
-17:04:08:6328 - {"c":1,"cmdId":17,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
-17:04:08:7236 - Extension promised a message of length: 158
-17:04:08:7236 - {"cmdId":18,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,4,\"\",[{\"$type\":\"ref\",\"data\":[0,3]}]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:08:7246 - App promised a message of length: 73
-17:04:08:7246 - {"c":1,"cmdId":11,"colonyId":0,"msg":"[\"Enum\",0,3]","n":1,"type":"cmd"}
-17:04:08:7246 - App promised a message of length: 133
-17:04:08:7246 - {"c":1,"cmdId":12,"colonyId":0,"msg":"[\"Invoke\",1,0,\"readObject\",[{\"$type\":\"local-ref\",\"data\":[0,3]}]]","n":1,"type":"cmd"}
-17:04:08:7256 - Extension promised a message of length: 159
-17:04:08:7266 - {"cmdId":11,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"Session\",\"Command\",\"RememberPacket\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:08:8016 - Extension promised a message of length: 203
-17:04:08:8016 - {"cmdId":12,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"Session\":\"00000000000000000000002148837094\",\"Command\":2,\"RememberPacket\":true}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:08:8016 - App promised a message of length: 78
-17:04:08:8026 - {"c":1,"cmdId":18,"colonyId":0,"msg":"[\"success\",true]","n":1,"type":"resp"}
-17:04:08:8186 - Extension promised a message of length: 131
-17:04:08:8186 - {"cmdId":19,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"CreatePacket\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:08:8186 - App promised a message of length: 108
-17:04:08:8186 - {"c":1,"cmdId":19,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,5]}]","n":1,"type":"resp"}
-17:04:08:8206 - Extension promised a message of length: 114
-17:04:08:8216 - {"cmdId":20,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,5]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:08:8216 - App promised a message of length: 76
-17:04:08:8216 - {"c":1,"cmdId":20,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
-17:04:08:8766 - Extension promised a message of length: 6,366
-17:04:08:8766 - {"cmdId":21,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,5,\"\",[\"-----\\r\\nТИП КОМАНДЫ: 001014\\r\\nВЕРСИЯ: 01\\r\\nДОКУМЕНТ: 0353116267\\r\\nПОДПИСЬ: 0000000001\\r\\n[Подпись руководителя]\\r\\nНОМЕР: 1235\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nТИП ДОКУМЕНТА: 0000000010\\r\\n[Платёжное поручение]\\r\\nСПИСОК ПАРАМЕТРОВ\\r\\nПАРАМЕТР: U018\\r\\n[сумма платежного документа]\\r\\n12.0000\\r\\nПАРАМЕТР: U019\\r\\n[наименование плательщика]\\r\\nОбщество с ограниченной ответственностью \\\"НЛМК-КАЛУГА\\\"\\r\\nПАРАМЕТР: U020\\r\\n[ИНН плательщика]\\r\\n4003033040\\r\\nПАРАМЕТР: U022\\r\\n[счет плательщика]\\r\\n40702810887360000207\\r\\nПАРАМЕТР: U023\\r\\n[БИК банка плательщика]\\r\\n044525256\\r\\nПАРАМЕТР: U024\\r\\n[наименование банка плательщика]\\r\\nПАО РОСБАНК г. Москва\\r\\nПАРАМЕТР: U025\\r\\n[к/с банка плательщика]\\r\\n30101810000000000256\\r\\nПАРАМЕТР: U026\\r\\n[наименование получателя]\\r\\nСПАО \\\"ИНГОССТРАХ\\\"\\r\\nПАРАМЕТР: U028\\r\\n[ИНН получателя]\\r\\n7705042179\\r\\nПАРАМЕТР: U029\\r\\n[счет получателя]\\r\\n40701810700020016042\\r\\nПАРАМЕТР: U030\\r\\n[БИК банка получателя]\\r\\n044525225\\r\\nПАРАМЕТР: U031\\r\\n[наименование банка получателя]\\r\\nПАО Сбербанк г. Москва\\r\\nПАРАМЕТР: U032\\r\\n[к/с банка получателя]\\r\\n30101810400000000225\\r\\nПАРАМЕТР: U033\\r\\n[срок платежа]\\r\\n\\r\\nПАРАМЕТР: U034\\r\\n[очередность платежа]\\r\\n5\\r\\nПАРАМЕТР: U035\\r\\n[вид платежа]\\r\\n70\\r\\nПАРАМЕТР: U036\\r\\n[код назначения платежа]\\r\\n2\\r\\nПАРАМЕТР: U037\\r\\n[назначение платежа]\\r\\nВ т.ч. НДС (20%) 2,00 руб.\\r\\nПАРАМЕТР: U038\\r\\n[КПП]\\r\\n400301001\\r\\nПАРАМЕТР: U042\\r\\n[КПП получателя]\\r\\n770501001\\r\\nПАРАМЕТР: U043\\r\\n[Статус составителя расчетного документа]\\r\\n\\r\\nПАРАМЕТР: U044\\r\\n[Код бюджетной классификации]\\r\\n\\r\\nПАРАМЕТР: U045\\r\\n[Код ОКАТО]\\r\\n\\r\\nПАРАМЕТР: U046\\r\\n[Основание налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U047\\r\\n[Налоговый период]\\r\\n\\r\\nПАРАМЕТР: U048\\r\\n[Номер налогового документа]\\r\\n\\r\\nПАРАМЕТР: U049\\r\\n[Дата налогового документа]\\r\\n\\r\\nПАРАМЕТР: U050\\r\\n[Тип налогового платежа]\\r\\n1\\r\\nПАРАМЕТР: U052\\r\\n[Уин]\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n-----\\r\\nТИП КОМАНДЫ: 001014\\r\\nВЕРСИЯ: 01\\r\\nДОКУМЕНТ: 0353116267\\r\\nПОДПИСЬ: 0000000002\\r\\n[Подпись бухгалтера]\\r\\nНОМЕР: 1235\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nТИП ДОКУМЕНТА: 0000000010\\r\\n[Платёжное поручение]\\r\\nСПИСОК ПАРАМЕТРОВ\\r\\nПАРАМЕТР: U018\\r\\n[сумма платежного документа]\\r\\n12.0000\\r\\nПАРАМЕТР: U019\\r\\n[наименование плательщика]\\r\\nОбщество с ограниченной ответственностью \\\"НЛМК-КАЛУГА\\\"\\r\\nПАРАМЕТР: U020\\r\\n[ИНН плательщика]\\r\\n4003033040\\r\\nПАРАМЕТР: U022\\r\\n[счет плательщика]\\r\\n40702810887360000207\\r\\nПАРАМЕТР: U023\\r\\n[БИК банка плательщика]\\r\\n044525256\\r\\nПАРАМЕТР: U024\\r\\n[наименование банка плательщика]\\r\\nПАО РОСБАНК г. Москва\\r\\nПАРАМЕТР: U025\\r\\n[к/с банка плательщика]\\r\\n30101810000000000256\\r\\nПАРАМЕТР: U026\\r\\n[наименование получателя]\\r\\nСПАО \\\"ИНГОССТРАХ\\\"\\r\\nПАРАМЕТР: U028\\r\\n[ИНН получателя]\\r\\n7705042179\\r\\nПАРАМЕТР: U029\\r\\n[счет получателя]\\r\\n40701810700020016042\\r\\nПАРАМЕТР: U030\\r\\n[БИК банка получателя]\\r\\n044525225\\r\\nПАРАМЕТР: U031\\r\\n[наименование банка получателя]\\r\\nПАО Сбербанк г. Москва\\r\\nПАРАМЕТР: U032\\r\\n[к/с банка получателя]\\r\\n30101810400000000225\\r\\nПАРАМЕТР: U033\\r\\n[срок платежа]\\r\\n\\r\\nПАРАМЕТР: U034\\r\\n[очередность платежа]\\r\\n5\\r\\nПАРАМЕТР: U035\\r\\n[вид платежа]\\r\\n70\\r\\nПАРАМЕТР: U036\\r\\n[код назначения платежа]\\r\\n2\\r\\nПАРАМЕТР: U037\\r\\n[назначение платежа]\\r\\nВ т.ч. НДС (20%) 2,00 руб.\\r\\nПАРАМЕТР: U038\\r\\n[КПП]\\r\\n400301001\\r\\nПАРАМЕТР: U042\\r\\n[КПП получателя]\\r\\n770501001\\r\\nПАРАМЕТР: U043\\r\\n[Статус составителя расчетного документа]\\r\\n\\r\\nПАРАМЕТР: U044\\r\\n[Код бюджетной классификации]\\r\\n\\r\\nПАРАМЕТР: U045\\r\\n[Код ОКАТО]\\r\\n\\r\\nПАРАМЕТР: U046\\r\\n[Основание налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U047\\r\\n[Налоговый период]\\r\\n\\r\\nПАРАМЕТР: U048\\r\\n[Номер налогового документа]\\r\\n\\r\\nПАРАМЕТР: U049\\r\\n[Дата налогового документа]\\r\\n\\r\\nПАРАМЕТР: U050\\r\\n[Тип налогового платежа]\\r\\n1\\r\\nПАРАМЕТР: U052\\r\\n[Уин]\\r\\n\\r\\n\\r\\n\\r\\n\",\"Подпись данных\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:10:4807 - App promised a message of length: 6,829
-17:04:10:4817 - {"c":1,"cmdId":21,"colonyId":0,"msg":"[\"success\",\"0000386301H1000036300000363000000097\\r\\n8736S75307SYA       00738089\\r\\n                    00000000\\r\\nBEGIN\\r\\nСЕССИЯ: 00000000000000000000002148837094\\r\\nНОМЕР ПАКЕТА: 000009\\r\\nЧИСЛО КОМАНД: 000002\\r\\nПОЛЬЗОВАТЕЛЬ: 8736S75307SYA       \\r\\nПРИМ: ID#I192.168.0.139#M38:00:25:2C:A0:24#F#S4277-6AE8#T4277-6AE8#V1.0.0.32\\r\\n-----\\r\\nТИП КОМАНДЫ: 001014\\r\\nВЕРСИЯ: 01\\r\\nДОКУМЕНТ: 0353116267\\r\\nПОДПИСЬ: 0000000001\\r\\n[Подпись руководителя]\\r\\nНОМЕР: 1235\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nТИП ДОКУМЕНТА: 0000000010\\r\\n[Платёжное поручение]\\r\\nСПИСОК ПАРАМЕТРОВ\\r\\nПАРАМЕТР: U018\\r\\n[сумма платежного документа]\\r\\n12.0000\\r\\nПАРАМЕТР: U019\\r\\n[наименование плательщика]\\r\\nОбщество с ограниченной ответственностью \\\"НЛМК-КАЛУГА\\\"\\r\\nПАРАМЕТР: U020\\r\\n[ИНН плательщика]\\r\\n4003033040\\r\\nПАРАМЕТР: U022\\r\\n[счет плательщика]\\r\\n40702810887360000207\\r\\nПАРАМЕТР: U023\\r\\n[БИК банка плательщика]\\r\\n044525256\\r\\nПАРАМЕТР: U024\\r\\n[наименование банка плательщика]\\r\\nПАО РОСБАНК г. Москва\\r\\nПАРАМЕТР: U025\\r\\n[к/с банка плательщика]\\r\\n30101810000000000256\\r\\nПАРАМЕТР: U026\\r\\n[наименование получателя]\\r\\nСПАО \\\"ИНГОССТРАХ\\\"\\r\\nПАРАМЕТР: U028\\r\\n[ИНН получателя]\\r\\n7705042179\\r\\nПАРАМЕТР: U029\\r\\n[счет получателя]\\r\\n40701810700020016042\\r\\nПАРАМЕТР: U030\\r\\n[БИК банка получателя]\\r\\n044525225\\r\\nПАРАМЕТР: U031\\r\\n[наименование банка получателя]\\r\\nПАО Сбербанк г. Москва\\r\\nПАРАМЕТР: U032\\r\\n[к/с банка получателя]\\r\\n30101810400000000225\\r\\nПАРАМЕТР: U033\\r\\n[срок платежа]\\r\\n\\r\\nПАРАМЕТР: U034\\r\\n[очередность платежа]\\r\\n5\\r\\nПАРАМЕТР: U035\\r\\n[вид платежа]\\r\\n70\\r\\nПАРАМЕТР: U036\\r\\n[код назначения платежа]\\r\\n2\\r\\nПАРАМЕТР: U037\\r\\n[назначение платежа]\\r\\nВ т.ч. НДС (20%) 2,00 руб.\\r\\nПАРАМЕТР: U038\\r\\n[КПП]\\r\\n400301001\\r\\nПАРАМЕТР: U042\\r\\n[КПП получателя]\\r\\n770501001\\r\\nПАРАМЕТР: U043\\r\\n[Статус составителя расчетного документа]\\r\\n\\r\\nПАРАМЕТР: U044\\r\\n[Код бюджетной классификации]\\r\\n\\r\\nПАРАМЕТР: U045\\r\\n[Код ОКАТО]\\r\\n\\r\\nПАРАМЕТР: U046\\r\\n[Основание налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U047\\r\\n[Налоговый период]\\r\\n\\r\\nПАРАМЕТР: U048\\r\\n[Номер налогового документа]\\r\\n\\r\\nПАРАМЕТР: U049\\r\\n[Дата налогового документа]\\r\\n\\r\\nПАРАМЕТР: U050\\r\\n[Тип налогового платежа]\\r\\n1\\r\\nПАРАМЕТР: U052\\r\\n[Уин]\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n-----\\r\\nТИП КОМАНДЫ: 001014\\r\\nВЕРСИЯ: 01\\r\\nДОКУМЕНТ: 0353116267\\r\\nПОДПИСЬ: 0000000002\\r\\n[Подпись бухгалтера]\\r\\nНОМЕР: 1235\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nТИП ДОКУМЕНТА: 0000000010\\r\\n[Платёжное поручение]\\r\\nСПИСОК ПАРАМЕТРОВ\\r\\nПАРАМЕТР: U018\\r\\n[сумма платежного документа]\\r\\n12.0000\\r\\nПАРАМЕТР: U019\\r\\n[наименование плательщика]\\r\\nОбщество с ограниченной ответственностью \\\"НЛМК-КАЛУГА\\\"\\r\\nПАРАМЕТР: U020\\r\\n[ИНН плательщика]\\r\\n4003033040\\r\\nПАРАМЕТР: U022\\r\\n[счет плательщика]\\r\\n40702810887360000207\\r\\nПАРАМЕТР: U023\\r\\n[БИК банка плательщика]\\r\\n044525256\\r\\nПАРАМЕТР: U024\\r\\n[наименование банка плательщика]\\r\\nПАО РОСБАНК г. Москва\\r\\nПАРАМЕТР: U025\\r\\n[к/с банка плательщика]\\r\\n30101810000000000256\\r\\nПАРАМЕТР: U026\\r\\n[наименование получателя]\\r\\nСПАО \\\"ИНГОССТРАХ\\\"\\r\\nПАРАМЕТР: U028\\r\\n[ИНН получателя]\\r\\n7705042179\\r\\nПАРАМЕТР: U029\\r\\n[счет получателя]\\r\\n40701810700020016042\\r\\nПАРАМЕТР: U030\\r\\n[БИК банка получателя]\\r\\n044525225\\r\\nПАРАМЕТР: U031\\r\\n[наименование банка получателя]\\r\\nПАО Сбербанк г. Москва\\r\\nПАРАМЕТР: U032\\r\\n[к/с банка получателя]\\r\\n30101810400000000225\\r\\nПАРАМЕТР: U033\\r\\n[срок платежа]\\r\\n\\r\\nПАРАМЕТР: U034\\r\\n[очередность платежа]\\r\\n5\\r\\nПАРАМЕТР: U035\\r\\n[вид платежа]\\r\\n70\\r\\nПАРАМЕТР: U036\\r\\n[код назначения платежа]\\r\\n2\\r\\nПАРАМЕТР: U037\\r\\n[назначение платежа]\\r\\nВ т.ч. НДС (20%) 2,00 руб.\\r\\nПАРАМЕТР: U038\\r\\n[КПП]\\r\\n400301001\\r\\nПАРАМЕТР: U042\\r\\n[КПП получателя]\\r\\n770501001\\r\\nПАРАМЕТР: U043\\r\\n[Статус составителя расчетного документа]\\r\\n\\r\\nПАРАМЕТР: U044\\r\\n[Код бюджетной классификации]\\r\\n\\r\\nПАРАМЕТР: U045\\r\\n[Код ОКАТО]\\r\\n\\r\\nПАРАМЕТР: U046\\r\\n[Основание налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U047\\r\\n[Налоговый период]\\r\\n\\r\\nПАРАМЕТР: U048\\r\\n[Номер налогового документа]\\r\\n\\r\\nПАРАМЕТР: U049\\r\\n[Дата налогового документа]\\r\\n\\r\\nПАРАМЕТР: U050\\r\\n[Тип налогового платежа]\\r\\n1\\r\\nПАРАМЕТР: U052\\r\\n[Уин]\\r\\n\\r\\n\\r\\n\\r\\n\\r\\nEND\\r\\nBEGIN SIGNATURE\\r\\nIn4ppAVjm4Ps3yYAdi9RXPmkOWCXsr4Vpy5jJgJUVPiFigz1Nb1PKTzeM5ocs59d\\r\\noGVzbGkz7Fq1LtCkuPZZrw==\\r\\n=M45h\\r\\nEND SIGNATURE\"]","n":1,"type":"resp"}
-17:04:13:6376 - Extension promised a message of length: 116
-17:04:13:6376 - {"cmdId":22,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,4]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:13:6376 - App promised a message of length: 78
-17:04:13:6386 - {"c":1,"cmdId":22,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
-17:04:13:8249 - Extension promised a message of length: 116
-17:04:13:8249 - {"cmdId":23,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,5]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
-17:04:13:8257 - App promised a message of length: 78
-17:04:13:8257 - {"c":1,"cmdId":23,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
+17:17:52:1292 - extension: chrome-extension://polkfpcimpfhcflopocaobbbnphilcbi/
+17:17:52:1302 - parent-window: 00000000
+17:17:52:1302 - Listening for messages...
+17:17:52:1312 - Checking for C:\Users\tinkd\AppData\Roaming\Inist\FireWyrmNativeMessageHost.exe...
+17:17:52:1372 - Started FireWyrmNativeMessageHost.exe as the proxied NativeMessagingHost.
+17:17:52:1552 - Extension promised a message of length: 99
+17:17:52:1552 - {"cmd":"create","mimetype":"application/x-bicryptplugin2","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:1882 - App promised a message of length: 55
+17:17:52:1882 - {"plugin":"inist.ru/BicryptPlugin2","status":"success"}
+17:17:52:1922 - Extension promised a message of length: 144
+17:17:52:1922 - {"cmdId":1,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"New\",\"application/x-bicryptplugin2\",{}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:1932 - App promised a message of length: 82
+17:17:52:1932 - {"c":1,"cmdId":1,"colonyId":0,"msg":"[\"New\",\"browser\",{}]","n":1,"type":"cmd"}
+17:17:52:1942 - App promised a message of length: 74
+17:17:52:1942 - {"c":1,"cmdId":1,"colonyId":0,"msg":"[\"success\",1]","n":1,"type":"resp"}
+17:17:52:1952 - Extension promised a message of length: 115
+17:17:52:1952 - {"cmdId":1,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",1]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:1952 - App promised a message of length: 72
+17:17:52:1952 - {"c":1,"cmdId":2,"colonyId":0,"msg":"[\"Enum\",1,0]","n":1,"type":"cmd"}
+17:17:52:1962 - Extension promised a message of length: 113
+17:17:52:1965 - {"cmdId":2,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",1,0]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:1975 - App promised a message of length: 1,327
+17:17:52:1975 - {"c":1,"cmdId":2,"colonyId":0,"msg":"[\"success\",[\"AddKeyParam\",\"BankName\",\"CheckKey\",\"CheckVersion\",\"ClearKeyParams\",\"ClientCode\",\"ClientName\",\"Command\",\"CompressFiles\",\"CreatePacket\",\"CryptString\",\"DecompressFile\",\"DecryptPackage\",\"DecryptPackageBase64\",\"DecryptPackageBuf\",\"DocType\",\"FileSystemKeyStore\",\"FileSystemKeyStoreOnly\",\"ForceRegister\",\"GenSignKey\",\"GeneratedKeyInfo\",\"GetFileContentEx\",\"GetFileInfoByPath\",\"GetFileLines\",\"GetFileUTF8\",\"GetPluginProperties\",\"Gost2012\",\"InitToken\",\"KeyAkt\",\"KeyBody\",\"KeyInfo\",\"KeyParam\",\"Language\",\"MaxTrash\",\"MaxTrashPause\",\"MinTrash\",\"MinTrashPause\",\"NGOTPMode\",\"NGOTPTimeout\",\"Packet\",\"PacketCount\",\"PrintKeyAkt\",\"ProfileName\",\"RememberPacket\",\"RemoveKeyParam\",\"SaveFileUTF8\",\"SaveToFile\",\"SaveToFileFirst\",\"SaveToFileLast\",\"SaveToFileNext\",\"SaveToFileUTF16\",\"SelectMultiFiles\",\"Session\",\"SetCommand\",\"SetPin\",\"SetPluginProperties\",\"SetSession\",\"UseNGOTP\",\"UserName\",\"VirtualKeyboardOnly\",\"createPacketFromFile2\",\"getAttribute\",\"getFileInfo\",\"getPacket\",\"selectCatalog\",\"selectCatalogEx\",\"selectFiles\",\"selectFilesEx\",\"setAttribute\",\"set_SOPass\",\"set_UserDefaultPin\",\"toString\",\"valid\",\"value\",\"version\"]]","n":1,"type":"resp"}
+17:17:52:1975 - Extension promised a message of length: 203
+17:17:52:1975 - {"cmdId":2,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"eval\",\"getDocument\",\"getWindow\",\"invokeWithDelay\",\"readArray\",\"readObject\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:1985 - App promised a message of length: 91
+17:17:52:1985 - {"c":1,"cmdId":3,"colonyId":0,"msg":"[\"Invoke\",1,0,\"getWindow\",[]]","n":1,"type":"cmd"}
+17:17:52:1985 - App promised a message of length: 93
+17:17:52:1985 - {"c":1,"cmdId":4,"colonyId":0,"msg":"[\"Invoke\",1,0,\"getDocument\",[]]","n":1,"type":"cmd"}
+17:17:52:2083 - Extension promised a message of length: 125
+17:17:52:2083 - {"cmdId":3,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"version\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:2083 - App promised a message of length: 85
+17:17:52:2083 - {"c":1,"cmdId":3,"colonyId":0,"msg":"[\"success\",\"1.0.0.32\"]","n":1,"type":"resp"}
+17:17:52:2243 - Extension promised a message of length: 148
+17:17:52:2253 - {"cmdId":3,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[1,1]}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:2253 - Extension promised a message of length: 148
+17:17:52:2253 - {"cmdId":4,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[1,2]}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:2253 - App promised a message of length: 72
+17:17:52:2253 - {"c":1,"cmdId":5,"colonyId":0,"msg":"[\"Enum\",1,1]","n":1,"type":"cmd"}
+17:17:52:2253 - App promised a message of length: 72
+17:17:52:2253 - {"c":1,"cmdId":6,"colonyId":0,"msg":"[\"Enum\",1,2]","n":1,"type":"cmd"}
+17:17:52:2283 - Extension promised a message of length: 4,460
+17:17:52:2283 - {"cmdId":5,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"0\",\"1\",\"2\",\"window\",\"self\",\"document\",\"name\",\"location\",\"customElements\",\"history\",\"navigation\",\"locationbar\",\"menubar\",\"personalbar\",\"scrollbars\",\"statusbar\",\"toolbar\",\"status\",\"closed\",\"frames\",\"length\",\"top\",\"opener\",\"parent\",\"frameElement\",\"navigator\",\"origin\",\"external\",\"screen\",\"innerWidth\",\"innerHeight\",\"scrollX\",\"pageXOffset\",\"scrollY\",\"pageYOffset\",\"visualViewport\",\"screenX\",\"screenY\",\"outerWidth\",\"outerHeight\",\"devicePixelRatio\",\"clientInformation\",\"screenLeft\",\"screenTop\",\"styleMedia\",\"onsearch\",\"isSecureContext\",\"trustedTypes\",\"performance\",\"onappinstalled\",\"onbeforeinstallprompt\",\"crypto\",\"indexedDB\",\"sessionStorage\",\"localStorage\",\"onbeforexrselect\",\"onabort\",\"onbeforeinput\",\"onblur\",\"oncancel\",\"oncanplay\",\"oncanplaythrough\",\"onchange\",\"onclick\",\"onclose\",\"oncontextlost\",\"oncontextmenu\",\"oncontextrestored\",\"oncuechange\",\"ondblclick\",\"ondrag\",\"ondragend\",\"ondragenter\",\"ondragleave\",\"ondragover\",\"ondragstart\",\"ondrop\",\"ondurationchange\",\"onemptied\",\"onended\",\"onerror\",\"onfocus\",\"onformdata\",\"oninput\",\"oninvalid\",\"onkeydown\",\"onkeypress\",\"onkeyup\",\"onload\",\"onloadeddata\",\"onloadedmetadata\",\"onloadstart\",\"onmousedown\",\"onmouseenter\",\"onmouseleave\",\"onmousemove\",\"onmouseout\",\"onmouseover\",\"onmouseup\",\"onmousewheel\",\"onpause\",\"onplay\",\"onplaying\",\"onprogress\",\"onratechange\",\"onreset\",\"onresize\",\"onscroll\",\"onsecuritypolicyviolation\",\"onseeked\",\"onseeking\",\"onselect\",\"onslotchange\",\"onstalled\",\"onsubmit\",\"onsuspend\",\"ontimeupdate\",\"ontoggle\",\"onvolumechange\",\"onwaiting\",\"onwebkitanimationend\",\"onwebkitanimationiteration\",\"onwebkitanimationstart\",\"onwebkittransitionend\",\"onwheel\",\"onauxclick\",\"ongotpointercapture\",\"onlostpointercapture\",\"onpointerdown\",\"onpointermove\",\"onpointerrawupdate\",\"onpointerup\",\"onpointercancel\",\"onpointerover\",\"onpointerout\",\"onpointerenter\",\"onpointerleave\",\"onselectstart\",\"onselectionchange\",\"onanimationend\",\"onanimationiteration\",\"onanimationstart\",\"ontransitionrun\",\"ontransitionstart\",\"ontransitionend\",\"ontransitioncancel\",\"onafterprint\",\"onbeforeprint\",\"onbeforeunload\",\"onhashchange\",\"onlanguagechange\",\"onmessage\",\"onmessageerror\",\"onoffline\",\"ononline\",\"onpagehide\",\"onpageshow\",\"onpopstate\",\"onrejectionhandled\",\"onstorage\",\"onunhandledrejection\",\"onunload\",\"crossOriginIsolated\",\"scheduler\",\"alert\",\"atob\",\"blur\",\"btoa\",\"cancelAnimationFrame\",\"cancelIdleCallback\",\"captureEvents\",\"clearInterval\",\"clearTimeout\",\"close\",\"confirm\",\"createImageBitmap\",\"fetch\",\"find\",\"focus\",\"getComputedStyle\",\"getSelection\",\"matchMedia\",\"moveBy\",\"moveTo\",\"open\",\"postMessage\",\"print\",\"prompt\",\"queueMicrotask\",\"releaseEvents\",\"reportError\",\"requestAnimationFrame\",\"requestIdleCallback\",\"resizeBy\",\"resizeTo\",\"scroll\",\"scrollBy\",\"scrollTo\",\"setInterval\",\"setTimeout\",\"stop\",\"structuredClone\",\"webkitCancelAnimationFrame\",\"webkitRequestAnimationFrame\",\"chrome\",\"credentialless\",\"caches\",\"cookieStore\",\"ondevicemotion\",\"ondeviceorientation\",\"ondeviceorientationabsolute\",\"launchQueue\",\"onbeforematch\",\"getScreenDetails\",\"queryLocalFonts\",\"showDirectoryPicker\",\"showOpenFilePicker\",\"showSaveFilePicker\",\"originAgentCluster\",\"speechSynthesis\",\"oncontentvisibilityautostatechange\",\"openDatabase\",\"webkitRequestFileSystem\",\"webkitResolveLocalFileSystemURL\",\"gtmTestId\",\"gtmProdId\",\"gtmId\",\"dataLayer\",\"dT_\",\"dtrum\",\"dynatrace\",\"gtag\",\"getQueryParam\",\"utm\",\"init\",\"ROSBANK_API_BASE_PATH\",\"ROSBANK_ENVIRONMENT\",\"ROSBANK_SENTRY_DSN\",\"ROSBANK_SENTRY_TAGS\",\"ROSBANK_SENTRY_RELEASE\",\"ROSBANK_SENTRY_ENVIRONMENT\",\"ROSBANK_API_ETR_DOMAIN\",\"gtmIframe\",\"iframe\",\"link\",\"gib\",\"webpackChunkrosbank\",\"Zone\",\"debug\",\"untilDestroyedAliveList\",\"untilDestroyedStatusMap\",\"IMask\",\"printJS\",\"regeneratorRuntime\",\"saveAs\",\"environment\",\"getAngularTestability\",\"getAllAngularTestabilities\",\"getAllAngularRootElements\",\"frameworkStabilizers\",\"sessionUUID\",\"FireBreathPromise\",\"FireWyrmJS\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:2283 - Extension promised a message of length: 154
+17:17:52:2283 - {"cmdId":6,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"location\",\"40640lvb\",\"22202lvb\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:7023 - Extension promised a message of length: 137
+17:17:52:7023 - {"cmdId":4,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"SetPluginProperties\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:7023 - App promised a message of length: 107
+17:17:52:7033 - {"c":1,"cmdId":4,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,1]}]","n":1,"type":"resp"}
+17:17:52:7043 - Extension promised a message of length: 113
+17:17:52:7043 - {"cmdId":5,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,1]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:7053 - App promised a message of length: 75
+17:17:52:7053 - {"c":1,"cmdId":5,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
+17:17:52:7943 - Extension promised a message of length: 157
+17:17:52:7943 - {"cmdId":6,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,1,\"\",[{\"$type\":\"ref\",\"data\":[0,1]}]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:7953 - App promised a message of length: 72
+17:17:52:7953 - {"c":1,"cmdId":7,"colonyId":0,"msg":"[\"Enum\",0,1]","n":1,"type":"cmd"}
+17:17:52:7953 - App promised a message of length: 132
+17:17:52:7953 - {"c":1,"cmdId":8,"colonyId":0,"msg":"[\"Invoke\",1,0,\"readObject\",[{\"$type\":\"local-ref\",\"data\":[0,1]}]]","n":1,"type":"cmd"}
+17:17:52:7973 - Extension promised a message of length: 244
+17:17:52:7973 - {"cmdId":7,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"DocType\",\"BankName\",\"ProfileName\",\"Language\",\"RegistryKeyStore\",\"RememberPacket\",\"Packet\",\"VirtualKeyboardOnly\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:9146 - Extension promised a message of length: 292
+17:17:52:9146 - {"cmdId":8,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"DocType\":\"\",\"BankName\":\"\",\"ProfileName\":\"Profile_Name\",\"Language\":0,\"RegistryKeyStore\":false,\"RememberPacket\":true,\"Packet\":3,\"VirtualKeyboardOnly\":false}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:52:9156 - App promised a message of length: 77
+17:17:52:9156 - {"c":1,"cmdId":6,"colonyId":0,"msg":"[\"success\",true]","n":1,"type":"resp"}
+17:17:55:9138 - Extension promised a message of length: 131
+17:17:55:9138 - {"cmdId":7,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"ForceRegister\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:55:9148 - App promised a message of length: 107
+17:17:55:9148 - {"c":1,"cmdId":7,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,2]}]","n":1,"type":"resp"}
+17:17:55:9178 - Extension promised a message of length: 113
+17:17:55:9178 - {"cmdId":8,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,2]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:55:9178 - App promised a message of length: 75
+17:17:55:9178 - {"c":1,"cmdId":8,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
+17:17:55:9389 - Extension promised a message of length: 123
+17:17:55:9389 - {"cmdId":9,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,2,\"\",[]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:55:9389 - App promised a message of length: 77
+17:17:55:9389 - {"c":1,"cmdId":9,"colonyId":0,"msg":"[\"success\",true]","n":1,"type":"resp"}
+17:17:55:9555 - Extension promised a message of length: 138
+17:17:55:9555 - {"cmdId":10,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"SetPluginProperties\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:55:9555 - App promised a message of length: 108
+17:17:55:9555 - {"c":1,"cmdId":10,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,3]}]","n":1,"type":"resp"}
+17:17:55:9575 - Extension promised a message of length: 114
+17:17:55:9575 - {"cmdId":11,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,3]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:55:9575 - App promised a message of length: 76
+17:17:55:9575 - {"c":1,"cmdId":11,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
+17:17:56:0368 - Extension promised a message of length: 158
+17:17:56:0368 - {"cmdId":12,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,3,\"\",[{\"$type\":\"ref\",\"data\":[0,2]}]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:56:0368 - App promised a message of length: 72
+17:17:56:0368 - {"c":1,"cmdId":9,"colonyId":0,"msg":"[\"Enum\",0,2]","n":1,"type":"cmd"}
+17:17:56:0378 - App promised a message of length: 133
+17:17:56:0378 - {"c":1,"cmdId":10,"colonyId":0,"msg":"[\"Invoke\",1,0,\"readObject\",[{\"$type\":\"local-ref\",\"data\":[0,2]}]]","n":1,"type":"cmd"}
+17:17:56:0398 - Extension promised a message of length: 158
+17:17:56:0398 - {"cmdId":9,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"Session\",\"Command\",\"RememberPacket\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:56:1197 - Extension promised a message of length: 191
+17:17:56:1197 - {"cmdId":10,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"Session\":\"2046178989148837123\",\"Command\":1,\"RememberPacket\":false}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:56:1197 - App promised a message of length: 78
+17:17:56:1197 - {"c":1,"cmdId":12,"colonyId":0,"msg":"[\"success\",true]","n":1,"type":"resp"}
+17:17:56:1363 - Extension promised a message of length: 131
+17:17:56:1363 - {"cmdId":13,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"CreatePacket\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:56:1363 - App promised a message of length: 108
+17:17:56:1363 - {"c":1,"cmdId":13,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,4]}]","n":1,"type":"resp"}
+17:17:56:1387 - Extension promised a message of length: 114
+17:17:56:1387 - {"cmdId":14,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,4]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:56:1387 - App promised a message of length: 76
+17:17:56:1387 - {"c":1,"cmdId":14,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
+17:17:56:1956 - Extension promised a message of length: 295
+17:17:56:1956 - {"cmdId":15,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,4,\"\",[\"-----\\r\\nТИП КОМАНДЫ: 001001\\r\\nВЕРСИЯ: 01\\r\\nРЕГИСТРАЦИЯ ПОЛЬЗОВАТЕЛЯ\",\"Регистрация пользователя\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:17:57:7175 - Extension promised a message of length: 116
+17:17:57:7185 - {"cmdId":16,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,1]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:00:9329 - Extension promised a message of length: 116
+17:18:00:9329 - {"cmdId":17,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,2]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:00:9634 - Extension promised a message of length: 116
+17:18:00:9634 - {"cmdId":18,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,3]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:07:9041 - App promised a message of length: 726
+17:18:07:9051 - {"c":1,"cmdId":15,"colonyId":0,"msg":"[\"success\",\"0000048501H1000002520000025200000097\\r\\n8736S75307SYA       00738089\\r\\n                    00000000\\r\\nBEGIN\\r\\nСЕССИЯ: 2046178989148837123 \\r\\nНОМЕР ПАКЕТА: 000003\\r\\nЧИСЛО КОМАНД: 000001\\r\\nПОЛЬЗОВАТЕЛЬ: 8736S75307SYA       \\r\\nПРИМ: ID#I192.168.0.139#M38:00:25:2C:A0:24#F#S4277-6AE8#T4277-6AE8#V1.0.0.32\\r\\n-----\\r\\nТИП КОМАНДЫ: 001001\\r\\nВЕРСИЯ: 01\\r\\nРЕГИСТРАЦИЯ ПОЛЬЗОВАТЕЛЯ\\r\\nEND\\r\\nBEGIN SIGNATURE\\r\\nChUxNo4whUxy7cPeOznNxiGAO+nNETW+Jl9U1R/UH+BqC49j19dJA32y2SxKZnJd\\r\\n6LoT2NGPMEQWwLZhiyeaIQ==\\r\\n=uX9U\\r\\nEND SIGNATURE\"]","n":1,"type":"resp"}
+17:18:07:9051 - App promised a message of length: 78
+17:18:07:9051 - {"c":1,"cmdId":16,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
+17:18:07:9051 - App promised a message of length: 78
+17:18:07:9051 - {"c":1,"cmdId":17,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
+17:18:07:9051 - App promised a message of length: 78
+17:18:07:9051 - {"c":1,"cmdId":18,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
+17:18:12:9320 - Extension promised a message of length: 116
+17:18:12:9320 - {"cmdId":19,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,4]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:12:9330 - App promised a message of length: 78
+17:18:12:9330 - {"c":1,"cmdId":19,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
+17:18:39:2970 - Extension promised a message of length: 138
+17:18:39:2980 - {"cmdId":20,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"SetPluginProperties\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:39:2980 - App promised a message of length: 108
+17:18:39:2980 - {"c":1,"cmdId":20,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,5]}]","n":1,"type":"resp"}
+17:18:39:3030 - Extension promised a message of length: 114
+17:18:39:3040 - {"cmdId":21,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,5]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:39:3040 - App promised a message of length: 76
+17:18:39:3040 - {"c":1,"cmdId":21,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
+17:18:39:3885 - Extension promised a message of length: 158
+17:18:39:3895 - {"cmdId":22,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,5,\"\",[{\"$type\":\"ref\",\"data\":[0,3]}]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:39:3895 - App promised a message of length: 73
+17:18:39:3895 - {"c":1,"cmdId":11,"colonyId":0,"msg":"[\"Enum\",0,3]","n":1,"type":"cmd"}
+17:18:39:3895 - App promised a message of length: 133
+17:18:39:3905 - {"c":1,"cmdId":12,"colonyId":0,"msg":"[\"Invoke\",1,0,\"readObject\",[{\"$type\":\"local-ref\",\"data\":[0,3]}]]","n":1,"type":"cmd"}
+17:18:39:3915 - Extension promised a message of length: 159
+17:18:39:3915 - {"cmdId":11,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"Session\",\"Command\",\"RememberPacket\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:39:4684 - Extension promised a message of length: 203
+17:18:39:4684 - {"cmdId":12,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"Session\":\"00000000000000000000000148837125\",\"Command\":1,\"RememberPacket\":true}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:39:4684 - App promised a message of length: 78
+17:18:39:4684 - {"c":1,"cmdId":22,"colonyId":0,"msg":"[\"success\",true]","n":1,"type":"resp"}
+17:18:39:4877 - Extension promised a message of length: 131
+17:18:39:4877 - {"cmdId":23,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"CreatePacket\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:39:4877 - App promised a message of length: 108
+17:18:39:4877 - {"c":1,"cmdId":23,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,6]}]","n":1,"type":"resp"}
+17:18:39:4897 - Extension promised a message of length: 114
+17:18:39:4897 - {"cmdId":24,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,6]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:39:4897 - App promised a message of length: 76
+17:18:39:4897 - {"c":1,"cmdId":24,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
+17:18:39:5483 - Extension promised a message of length: 1,218
+17:18:39:5483 - {"cmdId":25,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,6,\"\",[\"-----\\r\\nТИП КОМАНДЫ: 001002\\r\\nВЕРСИЯ: 07\\r\\nКЛИЕНТ: 8736S75307\\r\\nПЛАТЕЖНЫЙ ДОКУМЕНТ\\r\\nНОМЕР: 1380\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nУИН: \\r\\nСУММА: 00000000000000000000000000015.00\\r\\nПЛАТЕЛЬЩИК:\\r\\nПубличное акционерное общество \\\"Новолипецкий металлургический комбинат\\\"|4823006703|40702810500000114727|044525256|ПАО РОСБАНК г. Москва|30101810000000000256|997550001|\\r\\nПОЛУЧАТЕЛЬ:\\r\\nСПАО \\\"ИНГОССТРАХ\\\"|7705042179|40701810700020016042|044525225|ПАО Сбербанк г. Москва|30101810400000000225|770501001|\\r\\nСРОК ПЛАТЕЖА: \\r\\nОЧЕРЕДНОСТЬ ПЛАТЕЖА: 5\\r\\nТИП ОТПРАВЛЕНИЯ: 0000000000000030\\r\\nНАЛОГОВЫЕ РЕКВИЗИТЫ:\\r\\n||||||||\\r\\nКОД НАЗНАЧЕНИЯ ПЛАТЕЖА: \\r\\nНАЗНАЧЕНИЕ ПЛАТЕЖА: \\r\\nВ т.ч. НДС (20%) 2,50 руб.\",\"Подпись данных\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:40:8796 - App promised a message of length: 1,681
+17:18:40:8796 - {"c":1,"cmdId":25,"colonyId":0,"msg":"[\"success\",\"0000109401H1000008610000086100000097\\r\\n8736S75307SYA       00738089\\r\\n                    00000000\\r\\nBEGIN\\r\\nСЕССИЯ: 00000000000000000000000148837125\\r\\nНОМЕР ПАКЕТА: 000004\\r\\nЧИСЛО КОМАНД: 000001\\r\\nПОЛЬЗОВАТЕЛЬ: 8736S75307SYA       \\r\\nПРИМ: ID#I192.168.0.139#M38:00:25:2C:A0:24#F#S4277-6AE8#T4277-6AE8#V1.0.0.32\\r\\n-----\\r\\nТИП КОМАНДЫ: 001002\\r\\nВЕРСИЯ: 07\\r\\nКЛИЕНТ: 8736S75307\\r\\nПЛАТЕЖНЫЙ ДОКУМЕНТ\\r\\nНОМЕР: 1380\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nУИН: \\r\\nСУММА: 00000000000000000000000000015.00\\r\\nПЛАТЕЛЬЩИК:\\r\\nПубличное акционерное общество \\\"Новолипецкий металлургический комбинат\\\"|4823006703|40702810500000114727|044525256|ПАО РОСБАНК г. Москва|30101810000000000256|997550001|\\r\\nПОЛУЧАТЕЛЬ:\\r\\nСПАО \\\"ИНГОССТРАХ\\\"|7705042179|40701810700020016042|044525225|ПАО Сбербанк г. Москва|30101810400000000225|770501001|\\r\\nСРОК ПЛАТЕЖА: \\r\\nОЧЕРЕДНОСТЬ ПЛАТЕЖА: 5\\r\\nТИП ОТПРАВЛЕНИЯ: 0000000000000030\\r\\nНАЛОГОВЫЕ РЕКВИЗИТЫ:\\r\\n||||||||\\r\\nКОД НАЗНАЧЕНИЯ ПЛАТЕЖА: \\r\\nНАЗНАЧЕНИЕ ПЛАТЕЖА: \\r\\nВ т.ч. НДС (20%) 2,50 руб.\\r\\nEND\\r\\nBEGIN SIGNATURE\\r\\nIHcsomEVX1xSRIRjIDmoraLLQKsuFcPnqMXVX0f8yyt/LjFL/xSjKvXgmotpA0dl\\r\\n7dpWQDzmgQ7/GVG6c7feTQ==\\r\\n=HYXG\\r\\nEND SIGNATURE\"]","n":1,"type":"resp"}
+17:18:44:3076 - Extension promised a message of length: 116
+17:18:44:3076 - {"cmdId":26,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,5]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:44:3076 - App promised a message of length: 78
+17:18:44:3076 - {"c":1,"cmdId":26,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
+17:18:44:4945 - Extension promised a message of length: 116
+17:18:44:4945 - {"cmdId":27,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,6]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:44:4945 - App promised a message of length: 78
+17:18:44:4945 - {"c":1,"cmdId":27,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
+17:18:45:6955 - Extension promised a message of length: 138
+17:18:45:6955 - {"cmdId":28,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"SetPluginProperties\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:45:6965 - App promised a message of length: 108
+17:18:45:6965 - {"c":1,"cmdId":28,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,7]}]","n":1,"type":"resp"}
+17:18:45:6995 - Extension promised a message of length: 114
+17:18:45:6995 - {"cmdId":29,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,7]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:45:6995 - App promised a message of length: 76
+17:18:45:6995 - {"c":1,"cmdId":29,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
+17:18:45:7837 - Extension promised a message of length: 158
+17:18:45:7837 - {"cmdId":30,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,7,\"\",[{\"$type\":\"ref\",\"data\":[0,4]}]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:45:7837 - App promised a message of length: 73
+17:18:45:7837 - {"c":1,"cmdId":13,"colonyId":0,"msg":"[\"Enum\",0,4]","n":1,"type":"cmd"}
+17:18:45:7837 - App promised a message of length: 133
+17:18:45:7837 - {"c":1,"cmdId":14,"colonyId":0,"msg":"[\"Invoke\",1,0,\"readObject\",[{\"$type\":\"local-ref\",\"data\":[0,4]}]]","n":1,"type":"cmd"}
+17:18:45:7857 - Extension promised a message of length: 159
+17:18:45:7867 - {"cmdId":13,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",[\"Session\",\"Command\",\"RememberPacket\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:45:8637 - Extension promised a message of length: 203
+17:18:45:8637 - {"cmdId":14,"type":"resp","c":1,"n":1,"colonyId":0,"msg":"[\"success\",{\"Session\":\"00000000000000000000000148837125\",\"Command\":2,\"RememberPacket\":true}]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:45:8637 - App promised a message of length: 78
+17:18:45:8637 - {"c":1,"cmdId":30,"colonyId":0,"msg":"[\"success\",true]","n":1,"type":"resp"}
+17:18:45:8785 - Extension promised a message of length: 131
+17:18:45:8795 - {"cmdId":31,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"GetP\",1,0,\"CreatePacket\"]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:45:8795 - App promised a message of length: 108
+17:18:45:8795 - {"c":1,"cmdId":31,"colonyId":0,"msg":"[\"success\",{\"$type\":\"ref\",\"data\":[0,8]}]","n":1,"type":"resp"}
+17:18:45:8815 - Extension promised a message of length: 114
+17:18:45:8815 - {"cmdId":32,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Enum\",0,8]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:45:8815 - App promised a message of length: 76
+17:18:45:8815 - {"c":1,"cmdId":32,"colonyId":0,"msg":"[\"success\",[]]","n":1,"type":"resp"}
+17:18:45:9414 - Extension promised a message of length: 6,430
+17:18:45:9414 - {"cmdId":33,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"Invoke\",0,8,\"\",[\"-----\\r\\nТИП КОМАНДЫ: 001014\\r\\nВЕРСИЯ: 01\\r\\nДОКУМЕНТ: 0353116286\\r\\nПОДПИСЬ: 0000000001\\r\\n[Подпись руководителя]\\r\\nНОМЕР: 1380\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nТИП ДОКУМЕНТА: 0000000010\\r\\n[Платёжное поручение]\\r\\nСПИСОК ПАРАМЕТРОВ\\r\\nПАРАМЕТР: U018\\r\\n[сумма платежного документа]\\r\\n15.0000\\r\\nПАРАМЕТР: U019\\r\\n[наименование плательщика]\\r\\nПубличное акционерное общество \\\"Новолипецкий металлургический комбинат\\\"\\r\\nПАРАМЕТР: U020\\r\\n[ИНН плательщика]\\r\\n4823006703\\r\\nПАРАМЕТР: U022\\r\\n[счет плательщика]\\r\\n40702810500000114727\\r\\nПАРАМЕТР: U023\\r\\n[БИК банка плательщика]\\r\\n044525256\\r\\nПАРАМЕТР: U024\\r\\n[наименование банка плательщика]\\r\\nПАО РОСБАНК г. Москва\\r\\nПАРАМЕТР: U025\\r\\n[к/с банка плательщика]\\r\\n30101810000000000256\\r\\nПАРАМЕТР: U026\\r\\n[наименование получателя]\\r\\nСПАО \\\"ИНГОССТРАХ\\\"\\r\\nПАРАМЕТР: U028\\r\\n[ИНН получателя]\\r\\n7705042179\\r\\nПАРАМЕТР: U029\\r\\n[счет получателя]\\r\\n40701810700020016042\\r\\nПАРАМЕТР: U030\\r\\n[БИК банка получателя]\\r\\n044525225\\r\\nПАРАМЕТР: U031\\r\\n[наименование банка получателя]\\r\\nПАО Сбербанк г. Москва\\r\\nПАРАМЕТР: U032\\r\\n[к/с банка получателя]\\r\\n30101810400000000225\\r\\nПАРАМЕТР: U033\\r\\n[срок платежа]\\r\\n\\r\\nПАРАМЕТР: U034\\r\\n[очередность платежа]\\r\\n5\\r\\nПАРАМЕТР: U035\\r\\n[вид платежа]\\r\\n30\\r\\nПАРАМЕТР: U036\\r\\n[код назначения платежа]\\r\\n\\r\\nПАРАМЕТР: U037\\r\\n[назначение платежа]\\r\\nВ т.ч. НДС (20%) 2,50 руб.\\r\\nПАРАМЕТР: U038\\r\\n[КПП]\\r\\n997550001\\r\\nПАРАМЕТР: U042\\r\\n[КПП получателя]\\r\\n770501001\\r\\nПАРАМЕТР: U043\\r\\n[Статус составителя расчетного документа]\\r\\n\\r\\nПАРАМЕТР: U044\\r\\n[Код бюджетной классификации]\\r\\n\\r\\nПАРАМЕТР: U045\\r\\n[Код ОКАТО]\\r\\n\\r\\nПАРАМЕТР: U046\\r\\n[Основание налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U047\\r\\n[Налоговый период]\\r\\n\\r\\nПАРАМЕТР: U048\\r\\n[Номер налогового документа]\\r\\n\\r\\nПАРАМЕТР: U049\\r\\n[Дата налогового документа]\\r\\n\\r\\nПАРАМЕТР: U050\\r\\n[Тип налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U052\\r\\n[Уин]\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n-----\\r\\nТИП КОМАНДЫ: 001014\\r\\nВЕРСИЯ: 01\\r\\nДОКУМЕНТ: 0353116286\\r\\nПОДПИСЬ: 0000000002\\r\\n[Подпись бухгалтера]\\r\\nНОМЕР: 1380\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nТИП ДОКУМЕНТА: 0000000010\\r\\n[Платёжное поручение]\\r\\nСПИСОК ПАРАМЕТРОВ\\r\\nПАРАМЕТР: U018\\r\\n[сумма платежного документа]\\r\\n15.0000\\r\\nПАРАМЕТР: U019\\r\\n[наименование плательщика]\\r\\nПубличное акционерное общество \\\"Новолипецкий металлургический комбинат\\\"\\r\\nПАРАМЕТР: U020\\r\\n[ИНН плательщика]\\r\\n4823006703\\r\\nПАРАМЕТР: U022\\r\\n[счет плательщика]\\r\\n40702810500000114727\\r\\nПАРАМЕТР: U023\\r\\n[БИК банка плательщика]\\r\\n044525256\\r\\nПАРАМЕТР: U024\\r\\n[наименование банка плательщика]\\r\\nПАО РОСБАНК г. Москва\\r\\nПАРАМЕТР: U025\\r\\n[к/с банка плательщика]\\r\\n30101810000000000256\\r\\nПАРАМЕТР: U026\\r\\n[наименование получателя]\\r\\nСПАО \\\"ИНГОССТРАХ\\\"\\r\\nПАРАМЕТР: U028\\r\\n[ИНН получателя]\\r\\n7705042179\\r\\nПАРАМЕТР: U029\\r\\n[счет получателя]\\r\\n40701810700020016042\\r\\nПАРАМЕТР: U030\\r\\n[БИК банка получателя]\\r\\n044525225\\r\\nПАРАМЕТР: U031\\r\\n[наименование банка получателя]\\r\\nПАО Сбербанк г. Москва\\r\\nПАРАМЕТР: U032\\r\\n[к/с банка получателя]\\r\\n30101810400000000225\\r\\nПАРАМЕТР: U033\\r\\n[срок платежа]\\r\\n\\r\\nПАРАМЕТР: U034\\r\\n[очередность платежа]\\r\\n5\\r\\nПАРАМЕТР: U035\\r\\n[вид платежа]\\r\\n30\\r\\nПАРАМЕТР: U036\\r\\n[код назначения платежа]\\r\\n\\r\\nПАРАМЕТР: U037\\r\\n[назначение платежа]\\r\\nВ т.ч. НДС (20%) 2,50 руб.\\r\\nПАРАМЕТР: U038\\r\\n[КПП]\\r\\n997550001\\r\\nПАРАМЕТР: U042\\r\\n[КПП получателя]\\r\\n770501001\\r\\nПАРАМЕТР: U043\\r\\n[Статус составителя расчетного документа]\\r\\n\\r\\nПАРАМЕТР: U044\\r\\n[Код бюджетной классификации]\\r\\n\\r\\nПАРАМЕТР: U045\\r\\n[Код ОКАТО]\\r\\n\\r\\nПАРАМЕТР: U046\\r\\n[Основание налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U047\\r\\n[Налоговый период]\\r\\n\\r\\nПАРАМЕТР: U048\\r\\n[Номер налогового документа]\\r\\n\\r\\nПАРАМЕТР: U049\\r\\n[Дата налогового документа]\\r\\n\\r\\nПАРАМЕТР: U050\\r\\n[Тип налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U052\\r\\n[Уин]\\r\\n\\r\\n\\r\\n\\r\\n\",\"Подпись данных\"]]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:48:9235 - App promised a message of length: 6,893
+17:18:48:9245 - {"c":1,"cmdId":33,"colonyId":0,"msg":"[\"success\",\"0000389301H1000036600000366000000097\\r\\n8736S75307SYA       00738089\\r\\n                    00000000\\r\\nBEGIN\\r\\nСЕССИЯ: 00000000000000000000000148837125\\r\\nНОМЕР ПАКЕТА: 000005\\r\\nЧИСЛО КОМАНД: 000002\\r\\nПОЛЬЗОВАТЕЛЬ: 8736S75307SYA       \\r\\nПРИМ: ID#I192.168.0.139#M38:00:25:2C:A0:24#F#S4277-6AE8#T4277-6AE8#V1.0.0.32\\r\\n-----\\r\\nТИП КОМАНДЫ: 001014\\r\\nВЕРСИЯ: 01\\r\\nДОКУМЕНТ: 0353116286\\r\\nПОДПИСЬ: 0000000001\\r\\n[Подпись руководителя]\\r\\nНОМЕР: 1380\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nТИП ДОКУМЕНТА: 0000000010\\r\\n[Платёжное поручение]\\r\\nСПИСОК ПАРАМЕТРОВ\\r\\nПАРАМЕТР: U018\\r\\n[сумма платежного документа]\\r\\n15.0000\\r\\nПАРАМЕТР: U019\\r\\n[наименование плательщика]\\r\\nПубличное акционерное общество \\\"Новолипецкий металлургический комбинат\\\"\\r\\nПАРАМЕТР: U020\\r\\n[ИНН плательщика]\\r\\n4823006703\\r\\nПАРАМЕТР: U022\\r\\n[счет плательщика]\\r\\n40702810500000114727\\r\\nПАРАМЕТР: U023\\r\\n[БИК банка плательщика]\\r\\n044525256\\r\\nПАРАМЕТР: U024\\r\\n[наименование банка плательщика]\\r\\nПАО РОСБАНК г. Москва\\r\\nПАРАМЕТР: U025\\r\\n[к/с банка плательщика]\\r\\n30101810000000000256\\r\\nПАРАМЕТР: U026\\r\\n[наименование получателя]\\r\\nСПАО \\\"ИНГОССТРАХ\\\"\\r\\nПАРАМЕТР: U028\\r\\n[ИНН получателя]\\r\\n7705042179\\r\\nПАРАМЕТР: U029\\r\\n[счет получателя]\\r\\n40701810700020016042\\r\\nПАРАМЕТР: U030\\r\\n[БИК банка получателя]\\r\\n044525225\\r\\nПАРАМЕТР: U031\\r\\n[наименование банка получателя]\\r\\nПАО Сбербанк г. Москва\\r\\nПАРАМЕТР: U032\\r\\n[к/с банка получателя]\\r\\n30101810400000000225\\r\\nПАРАМЕТР: U033\\r\\n[срок платежа]\\r\\n\\r\\nПАРАМЕТР: U034\\r\\n[очередность платежа]\\r\\n5\\r\\nПАРАМЕТР: U035\\r\\n[вид платежа]\\r\\n30\\r\\nПАРАМЕТР: U036\\r\\n[код назначения платежа]\\r\\n\\r\\nПАРАМЕТР: U037\\r\\n[назначение платежа]\\r\\nВ т.ч. НДС (20%) 2,50 руб.\\r\\nПАРАМЕТР: U038\\r\\n[КПП]\\r\\n997550001\\r\\nПАРАМЕТР: U042\\r\\n[КПП получателя]\\r\\n770501001\\r\\nПАРАМЕТР: U043\\r\\n[Статус составителя расчетного документа]\\r\\n\\r\\nПАРАМЕТР: U044\\r\\n[Код бюджетной классификации]\\r\\n\\r\\nПАРАМЕТР: U045\\r\\n[Код ОКАТО]\\r\\n\\r\\nПАРАМЕТР: U046\\r\\n[Основание налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U047\\r\\n[Налоговый период]\\r\\n\\r\\nПАРАМЕТР: U048\\r\\n[Номер налогового документа]\\r\\n\\r\\nПАРАМЕТР: U049\\r\\n[Дата налогового документа]\\r\\n\\r\\nПАРАМЕТР: U050\\r\\n[Тип налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U052\\r\\n[Уин]\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n-----\\r\\nТИП КОМАНДЫ: 001014\\r\\nВЕРСИЯ: 01\\r\\nДОКУМЕНТ: 0353116286\\r\\nПОДПИСЬ: 0000000002\\r\\n[Подпись бухгалтера]\\r\\nНОМЕР: 1380\\r\\nДАТА ДОКУМЕНТА: 05/05/2023\\r\\nТИП ДОКУМЕНТА: 0000000010\\r\\n[Платёжное поручение]\\r\\nСПИСОК ПАРАМЕТРОВ\\r\\nПАРАМЕТР: U018\\r\\n[сумма платежного документа]\\r\\n15.0000\\r\\nПАРАМЕТР: U019\\r\\n[наименование плательщика]\\r\\nПубличное акционерное общество \\\"Новолипецкий металлургический комбинат\\\"\\r\\nПАРАМЕТР: U020\\r\\n[ИНН плательщика]\\r\\n4823006703\\r\\nПАРАМЕТР: U022\\r\\n[счет плательщика]\\r\\n40702810500000114727\\r\\nПАРАМЕТР: U023\\r\\n[БИК банка плательщика]\\r\\n044525256\\r\\nПАРАМЕТР: U024\\r\\n[наименование банка плательщика]\\r\\nПАО РОСБАНК г. Москва\\r\\nПАРАМЕТР: U025\\r\\n[к/с банка плательщика]\\r\\n30101810000000000256\\r\\nПАРАМЕТР: U026\\r\\n[наименование получателя]\\r\\nСПАО \\\"ИНГОССТРАХ\\\"\\r\\nПАРАМЕТР: U028\\r\\n[ИНН получателя]\\r\\n7705042179\\r\\nПАРАМЕТР: U029\\r\\n[счет получателя]\\r\\n40701810700020016042\\r\\nПАРАМЕТР: U030\\r\\n[БИК банка получателя]\\r\\n044525225\\r\\nПАРАМЕТР: U031\\r\\n[наименование банка получателя]\\r\\nПАО Сбербанк г. Москва\\r\\nПАРАМЕТР: U032\\r\\n[к/с банка получателя]\\r\\n30101810400000000225\\r\\nПАРАМЕТР: U033\\r\\n[срок платежа]\\r\\n\\r\\nПАРАМЕТР: U034\\r\\n[очередность платежа]\\r\\n5\\r\\nПАРАМЕТР: U035\\r\\n[вид платежа]\\r\\n30\\r\\nПАРАМЕТР: U036\\r\\n[код назначения платежа]\\r\\n\\r\\nПАРАМЕТР: U037\\r\\n[назначение платежа]\\r\\nВ т.ч. НДС (20%) 2,50 руб.\\r\\nПАРАМЕТР: U038\\r\\n[КПП]\\r\\n997550001\\r\\nПАРАМЕТР: U042\\r\\n[КПП получателя]\\r\\n770501001\\r\\nПАРАМЕТР: U043\\r\\n[Статус составителя расчетного документа]\\r\\n\\r\\nПАРАМЕТР: U044\\r\\n[Код бюджетной классификации]\\r\\n\\r\\nПАРАМЕТР: U045\\r\\n[Код ОКАТО]\\r\\n\\r\\nПАРАМЕТР: U046\\r\\n[Основание налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U047\\r\\n[Налоговый период]\\r\\n\\r\\nПАРАМЕТР: U048\\r\\n[Номер налогового документа]\\r\\n\\r\\nПАРАМЕТР: U049\\r\\n[Дата налогового документа]\\r\\n\\r\\nПАРАМЕТР: U050\\r\\n[Тип налогового платежа]\\r\\n\\r\\nПАРАМЕТР: U052\\r\\n[Уин]\\r\\n\\r\\n\\r\\n\\r\\n\\r\\nEND\\r\\nBEGIN SIGNATURE\\r\\nqlOZVUrBhDa6Q2tY6ZGW34SiVtxF+BkIu1zohOCRzxXlDSL41TjdlESPmLu0OrDd\\r\\nGhO4e8cjvegLQ9qkdBmbCQ==\\r\\n=g9mS\\r\\nEND SIGNATURE\"]","n":1,"type":"resp"}
+17:18:50:7031 - Extension promised a message of length: 116
+17:18:50:7031 - {"cmdId":34,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,7]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:50:7031 - App promised a message of length: 78
+17:18:50:7031 - {"c":1,"cmdId":34,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
+17:18:50:8967 - Extension promised a message of length: 116
+17:18:50:8967 - {"cmdId":35,"type":"cmd","c":1,"n":1,"colonyId":0,"msg":"[\"RelObj\",0,8]","ext":"polkfpcimpfhcflopocaobbbnphilcbi"}
+17:18:50:8967 - App promised a message of length: 78
+17:18:50:8967 - {"c":1,"cmdId":35,"colonyId":0,"msg":"[\"success\",null]","n":1,"type":"resp"}
